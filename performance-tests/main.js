@@ -18,7 +18,7 @@ export default function() {
   check(http.post('http://bankaccount.ga/transaction-service/transactions', JSON.stringify(expensePayload), params), { 'success creating expense': (r) => r.status === 201 });
   sleep(1);
 
-  check(http.get('http://bankaccount.ga/balance-service/balances?accountId=wesley'), { 'success getting balance': (r) => r.status === 200 });
+  check(http.get('http://bankaccount.ga/balance-service/balances?accountId=ricardo'), { 'success getting balance': (r) => r.status === 200 });
   sleep(1);
 
 }

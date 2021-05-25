@@ -50,3 +50,8 @@ k6 run --vus 10 --duration 60s performance-tests/expense.js
 
 ### Contributing
 I'd love to have a frontend for it! [Please reach me out if you got interested](MailTo:wesley.fuchter@gmail.com)
+
+### Créditos
+Projeto original do [Wesley Fuchter](https://github.com/wesleyfuchter/cqrs-quarkus-kafka)
+
+Adaptação pro Java baseada no projeto do [Danilo Taira Rodrigues](https://github.com/danilotaira/Dio_BankTransactionsKafka)
